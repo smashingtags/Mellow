@@ -69,7 +69,7 @@ docker run -d --restart=unless-stopped --name mellow \
    -e JWT_SECRET=secret_password \
    -e PORT=5060 \
    -p 5060:5060 \
-   voidp/mellow
+   smashingtags/mellow
 ```
 * if you want persistent data create a folder in ``/opt/appdata/mellow/`` or use docker compose. A yaml file is provided for this purpose.
 
